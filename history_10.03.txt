@@ -1,0 +1,22 @@
+   0 mkdir /home/animals
+   1 mkdir /home/animals/dogs
+   2 mkdir /home/animals/cats
+   3 mkdir /home/animals/fish
+   4 touch /home/animals/dogs/pluto.txt
+   5 touch /home/animals/cats/garfield
+   6 touch /home/animals/fish/nemo.txt
+   7 touch /tmp/adam
+   8 cp-p /tmp/adam /home/humans
+   9 mkdir /home/humans
+  10 cp /tmp/adam /home/humans
+  11 touch /tmp/evA
+  12 mv /tmp/evA /opt/eve
+  13 mv /opt/eve /home/humans
+  14 tree /humans
+  15 cd /home/humans
+  16 ls-l
+  17 ls-al
+  18 ls-al /home/humans
+  19 ls -al
+  20 history > history_10.03
+  21 history > history_10.03.txt
