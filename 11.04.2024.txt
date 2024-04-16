@@ -1,0 +1,12 @@
+nano myfirstbashscript.sh
+strg + x 
+chmod u+x myfirstbashscript.sh 
+#!/bin/bash
+set -e
+USER="Anatolii" 
+date
+echo "hello $USER!"
+echo "I work from directory: $(pwd)"
+ps -ef | wc -l
+ps -ef | grep -v "grep" | grep "bioset" | wc -l
+ls - l /etc/passwd | awk '{print $1}'
